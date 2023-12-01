@@ -9,12 +9,6 @@ Make sure to configure the following settings in your environment:
 - Zookeeper: `localhost:2181`
 - Kafka: `localhost:9092`
 
-## Docker Build
-To build the Docker image for your Kafka setup, run the following command:
-
-```bash
-docker build -t common .
-```
 
 ## Run Zookeeper
 Start the Zookeeper server by executing the following command:
