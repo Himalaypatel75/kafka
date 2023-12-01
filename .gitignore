@@ -1,0 +1,25 @@
+# Kafka data and logs
+data/
+logs/
+
+# Kafka temporary files
+*.log
+*.pid
+*.lock
+
+# Kafka generated files
+*.bak
+
+# IDE files
+.idea/
+.vscode/
+
+# Maven specific
+target/
+
+# Gradle specific
+build/
+
+# Docker
+docker-compose.yml
+docker-compose.override.yml
