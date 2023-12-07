@@ -10,7 +10,7 @@ Run Kafka server
  bin/kafka-server-start.sh config/server.properties       
 
 Create kafka topic
-- bin/kafka-topics.sh  --create --bootstrap-server localhost:9092 --topic cities
+- bin/kafka-topics.sh  --create --bootstrap-server localhost:9092 --topic cities 
 
 Read Details about kafka topic
 - bin/kafka-topics.sh --describe --bootstrap-server localhost:9092 --topic cities
